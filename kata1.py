@@ -4,3 +4,4 @@
 interval = 15
 for check in range(interval, 151, interval):
     print(f"Check {check // interval}: {check} minutes after shift start")
+    #Short condition to check scanner every 15 minutes, up to 150 minutes after shift start.
