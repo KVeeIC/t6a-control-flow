@@ -17,3 +17,4 @@ for day in range(1, 31):
         print(f"day {day}: cycle count")
     else:
         print(f"day {day}: normal operations")
+        # If the day can be divided by 15, it is a full audit. If it can be divided by 5, it is a scanner audit. If it can be divided by 3, it is a cycle count. Otherwise, outside of these conditions these would be considered as normal operations.
