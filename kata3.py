@@ -8,3 +8,12 @@
 # Expected: INC-1001 and INC-1004 are logged; INC-1002 and INC-1003 are skipped.
 
 # Stretch: do the other Kata 3 option too.
+
+Aisles = "A1", "A2", "A3"
+Shelves = "S1", "S2", "S3", "S4"
+if Shelves and Aisles:
+    for aisle in Aisles:
+        row = ""
+        for shelf in Shelves:
+            row += f"{aisle}-{shelf} "
+        print(row.strip())
