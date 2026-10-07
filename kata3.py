@@ -15,5 +15,5 @@ if Shelves and Aisles:
     for aisle in Aisles:
         row = ""
         for shelf in Shelves:
-            row += f"{aisle}-{shelf} "
+            row += f"{aisle}-{shelf} " #This line of code is taking the Aisles and Shelves and adding them together as the row adds by 1 shelf at a time for each aisle. 
         print(row.strip())
